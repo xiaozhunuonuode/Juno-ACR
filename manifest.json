@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "version": "1.1.1",
+  "packageUrl": "https://github.com/xiaozhunuonuode/Juno-ACR/releases/download/v1.1.1/Juno-ACR.zip",
+  "sha256": "BC58126C0722DC403DFBC964B2AF4F3D956B12300BE3565DD27EE7D678AC055D",
+  "size": 295138,
+  "entryFolder": "Juno",
+  "notes": "# Juno ACR 1.1.1\n\n- 分发迁移到 `xiaozhunuonuode/Juno-ACR`，下载包为 `Juno-ACR.zip`，包内仅含 `Juno/Juno.dll`；源码继续保留在私有仓库。\n- 统一“32级老2”的状态、聊天、日志和悬停文案，简化目标等待提示，移除简介中关于 AE 目标选择器的旧说明。\n- 隐藏“32级老2待机”和已取消区域步骤的空状态行，保留运行、失败、完成等必要提示。\n- 更新器兼容新旧包目录，按实际安装目录替换对应主文件并备份旧 DLL；保留本地设置，程序集身份仍为 `JunoBlueMage`。\n\n## 旧版首次迁移\n\n旧分发仓库已删除，旧版 1.1.0 需要手动安装本版，无法通过旧更新器直接迁移。\n\n1. 下载本 Release 的 `Juno-ACR.zip`，停用旧 ACR 并退出游戏。\n2. 将旧 `ACR/JunoBlueMage` 目录移到 ACR 加载目录之外保存；若已使用 `ACR/Juno`，先把旧 DLL 备份到 ACR 之外。保留原有设置目录。\n3. 解压并安装为 `AEAssist/ACR/Juno/Juno.dll`，完整重启游戏后在作者选项中选择 `Juno`。\n\n目录改名后 AE 可能保留旧登记，普通 `/aeReload` 不一定能清除，所以首次迁移建议完整重启游戏。以后通过“版本更新”页的“下载安装”按钮更新，完成后执行 `/aeReload` 生效。\n\n本版包含本地文案统一、待机提示隐藏及更新目录兼容改动。游戏内显示、重载和实际使用效果仍需确认。",
+  "publishedAt": "2026-09-14T05:01:50.0950311+00:00"
+}
